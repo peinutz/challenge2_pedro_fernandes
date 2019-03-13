@@ -2,7 +2,7 @@
 
 const findClosestPair = (productsArray, giftCardBudget) => {
 
-  if(productsArray.length < 2) return "Not found.";
+  if(productsArray.length < 2) return "Not Possible.";
   let l_product, r_product;
 
   let leftIndex = 0;
@@ -35,7 +35,7 @@ const findClosestPair = (productsArray, giftCardBudget) => {
       "Product2" : productsArray[r_product]
     }
   } else {
-    return "Not Found";
+    return "Not Possible.";
   }
 };
 
