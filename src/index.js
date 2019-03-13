@@ -10,7 +10,6 @@ else {
     const filepath = args[0];
     const budget = args[1];
     loadProductsFile(filepath, parseProductsFile).then(res => console.log(findClosestPair(res, parseInt(budget))));
-    //loadProductsFile("C:\\Users\\Pedro\\Desktop\\repos\\test\\file.txt", parseProductsFile).then(res => console.log(findClosestPair(res, 10000)));
 }
 
 
